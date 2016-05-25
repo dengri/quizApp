@@ -18,6 +18,12 @@
 						url: appSettings.serverPath + '/question/:id',
 						isArray: false
 					},
+					picture: {
+						method: 'GET',
+						url: appSettings.serverPath + 'question/picture/:id',
+						isArray: false
+					}					
+					
 				});
 		
 		}

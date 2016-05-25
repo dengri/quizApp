@@ -23,6 +23,15 @@
                         url: "/",
                         templateUrl: "app/templates/welcome.html",
                      }
+                )
+                
+                .state(
+                    "allQuestions", {
+                        url: "/all-questions",
+                        templateUrl: "app/templates/all-questions.html",
+                        controller: "allQuestionsCtrl as vm"
+                    }
+                 
                 );
         }/*function*/
     ]);/*app.config*/

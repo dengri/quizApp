@@ -15,18 +15,19 @@ section{
 .navbar-default{
 	background-color: rgba(15, 15, 82, .75);
 	border: none;
+	border-bottom: 1px #ccc solid;
 }
 
 
 /*ACTIVE MENU ITEM*/
 .navbar-default .navbar-nav > .active > a{
 	background-color: rgba(0, 0, 0, 0);
-	color: #fff;	
+	color: #ccc;	
 }
 
  .navbar-default .navbar-nav > .active > a:focus{
 	 background-color: rgba(15, 15, 82, .75);
-	 color: #fff;
+	 color: #ccc;
  }
 
 .navbar-default .navbar-nav > .active > a:hover{
@@ -36,7 +37,7 @@ section{
 
 /*INACTIVE MENU ITEMS*/
 .navbar-default .navbar-nav > li > a{
-	color: #fff;	
+	color: #ccc;	
 }
 
 .navbar-default .navbar-nav > li > a:hover{
@@ -217,6 +218,30 @@ section{
 	display: block-inline;
 	
 	
+}
+
+
+
+/*--------------- ALL-QUESTIONS ----------------*/
+
+.container.all-questions{
+	background-color:  #a2cad8;
+	width: 100%;
+	padding: 2em;
+}
+
+h4.list-group-item-heading{
+	font-weight:  bold;
+	padding: 10px 0;
+	color: #333;	
+}
+
+.panel.panel-default{
+	margin-bottom: 150px;
+}
+
+.well.well-sm{
+	padding: .5em;
 }
 
 
