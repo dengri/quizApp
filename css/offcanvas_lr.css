@@ -1,0 +1,115 @@
+  body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+  
+  .row-offcanvas {
+    position: relative;
+    
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+   right: 0;
+   
+  }
+  
+  
+  /*Remove that strange -15px margins fro bootstrap .row*/
+  .row.row-offcanvas{
+    margin: 0;
+  }
+
+  
+
+  .sidebar-offcanvas-right {
+    position: absolute;
+    top: 0;
+    right: -40%;
+    width: 40%; /* 6 columns */
+   
+   
+  }
+  
+  .sidebar-offcanvas-left {
+    position: absolute;
+    top: 0;
+    left:-40%;
+    width: 40%; /* 6 columns */
+   
+  }
+ 
+  .row-offcanvas.left {
+    right: 40%; /* 6 columns */
+  }
+  
+  .row-offcanvas.right {
+    right: -40%; /* 6 columns */
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+@media screen and (max-width: 800px){
+  
+  .sidebar-offcanvas-right {
+    position: absolute;
+    top: 0;
+    right: -60%;
+    width: 60%; /* 6 columns */
+   
+   
+  }
+  
+  .sidebar-offcanvas-left {
+    position: absolute;
+    top: 0;
+    left:-60%;
+    width: 60%; /* 6 columns */
+   
+  }
+ 
+  .row-offcanvas.left {
+    right: 60%; /* 6 columns */
+  }
+  
+  .row-offcanvas.right {
+    right: -60%; /* 6 columns */
+  }
+ 
+  
+    
+}
+
+  
+
+@media screen and (max-width: 500px){
+  
+  .sidebar-offcanvas-right {
+    position: absolute;
+    top: 0;
+    right: -80%;
+    width: 80%; /* 6 columns */
+   
+   
+  }
+  
+  .sidebar-offcanvas-left {
+    position: absolute;
+    top: 0;
+    left:-80%;
+    width: 80%; /* 6 columns */
+   
+  }
+ 
+  .row-offcanvas.left {
+    right: 80%; /* 6 columns */
+  }
+  
+  .row-offcanvas.right {
+    right: -80%; /* 6 columns */
+  }
+ 
+
+
+}

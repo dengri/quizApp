@@ -1,0 +1,281 @@
+body{
+	padding-top:0px;
+}
+
+section{
+	padding:40px 0;
+}
+
+.em-text{
+	color: darkorange !important;
+}
+
+
+/*------------- NAVBAR -------------*/
+.navbar-default{
+	background-color: rgba(15, 15, 82, .75);
+	border: none;
+}
+
+
+/*ACTIVE MENU ITEM*/
+.navbar-default .navbar-nav > .active > a{
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;	
+}
+
+ .navbar-default .navbar-nav > .active > a:focus{
+	 background-color: rgba(15, 15, 82, .75);
+	 color: #fff;
+ }
+
+.navbar-default .navbar-nav > .active > a:hover{
+	background-color: rgba(0, 0, 0, 0);	
+	color: darkorange;
+}
+
+/*INACTIVE MENU ITEMS*/
+.navbar-default .navbar-nav > li > a{
+	color: #fff;	
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: darkorange;	
+}
+
+
+.navbar-brand > img{
+	height: 200%;
+	position: relative;
+	top: -10px;
+	bottom: 0;	
+	
+}
+
+
+
+/*------------- JUMBOTRON -------------*/
+
+.jumbotron{
+	background: url('../img/it-school-2016.jpg') no-repeat top left;
+	background-size: cover;
+	color:#fff;
+	height:650px;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+
+
+
+.jumbotron h1{
+	font-family: 'Oswald', sans-serif;
+	margin-top:155px;
+	font-size:5.6em;
+}
+
+.jumbotron p{
+	font-family: 'Roboto', sans-serif;
+	font-size:1.54em;
+	font-weight: normal
+}
+
+.jumbotron .app-btn{
+	height:4.5em;
+	margin: 80px 5em 0 0;
+}
+
+
+.demo{
+	padding:15px
+}
+
+.demo img{
+	padding:4px;
+	border: 1px solid #ccc;
+}
+
+.navbar-brand .material-icons {
+	font-size:1.9em;
+	margin-top:-.3em;
+}
+
+.navbar-brand span{
+	font-size:1.5em;
+	margin-left:-.4em;
+	margin-right:1em;
+}
+
+
+/*--------------- BUTTONS --------------- */
+.cta-button{
+	border: 1px solid #fff;
+	color: snow;
+	padding: 10px 50px;
+	display: block;
+	float: left;
+	background-color:  #6fa9bd;
+	border-radius: 3px;
+	font-size: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	transition: all .25s linear;
+	text-align: center;
+	
+}
+
+.cta-button:hover{
+	
+	border: 1px solid #fff;
+	color: snow;
+	text-decoration: none;
+	background-color: darkorange;
+}
+
+.cta-button + .cta-button{
+	margin-left: 2em;
+}
+
+
+
+
+/*---------------- REGISTRATION ---------------*/
+.registration{
+	background-color: #6fa9bd;
+	height:100%;
+	padding: 35px;
+	color:#fff;
+}
+
+
+.registration form{
+	height: 50%;
+	margin-top: 30%;
+	
+}
+
+
+#inputEmail, #inputFirstName, #inputLastName{
+	background-color: #a2cad8;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-bottom:30px;
+}
+
+#inputEmail, #inputFirstName, #inputLastName{
+	background-color: #a2cad8;
+	color: #fff;
+	border: 1px solid #fff;
+}
+
+.form-control::-webkit-input-placeholder {
+   color: #a2cad8;
+}
+
+.form-control:-moz-placeholder { 
+   color: #a2cad8;  
+}
+
+.form-control::-moz-placeholder {  
+   color: #a2cad8;  
+}
+
+.form-control:-ms-input-placeholder {  
+   color: #a2cad8;  
+}
+
+.form-control::-moz-placeholder {
+      color: #337ab7;
+}
+
+.admin{
+	background-color:  chocolate;
+}
+
+	
+/*----------------------FORM BUTTONS----------------------*/	
+.reg-form-buttons{
+	text-align: center;
+}
+
+.reg-form-buttons button{
+
+	border: 1px solid #fff;
+	display: block-inline;
+	padding: 10px 30px;
+	margin-right: 20px;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.reg-form-buttons button:hover{
+
+	border: 1px solid #fff;
+	background-color: darkorange;
+	display: block-inline;
+	
+	
+}
+
+
+
+
+/*----------- MEDIA -----------------*/
+
+@media screen and (max-width: 560px){
+	.jumbotron{
+		background: url('../img/it-school-2016.jpg') no-repeat center;
+		background-size: cover;	
+	}
+	
+	.jumbotron h1{
+		text-align: center;
+		font-size: 4em;
+		margin-top: 130px
+	}
+	
+	.jumbotron p{
+		text-align: center;
+	}
+	
+	.jumbotron .cta-button{
+			display: block;
+			width: 100%;
+		
+	}
+	
+	.jumbotron .cta-button + .cta-button{
+			margin-left:0;
+			margin-top: 15px;
+		}
+	
+}
+
+@media screen and (max-width: 375px){
+	.jumbotron h1{
+		margin-top: 100px;
+	}
+}
+
+
+/*-----------REG. BUTTONS--------------*/
+@media screen and (max-width: 940px){
+	.reg-form-buttons button{
+		display: block;
+		margin: 20px auto;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 380px){
+	.reg-form-buttons button{
+		padding: 5px 10px;
+	}
+	
+	la
+}
+
+
+
