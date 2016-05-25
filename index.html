@@ -31,6 +31,9 @@
   <body ng-app="quizzApp">
 
     
+		
+		
+		
     
    
    	<div ui-view></div>
@@ -43,12 +46,22 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/angular.js"></script>
    	<script src="js/angular-ui-router.js"></script>
+    <script src="js/angular-resource.min.js"></script>
 		
 		<!--	Main application script -->
 		<script src="app/app.js"></script>
-		
-		<!-- Controllers -->
+    
+    
+    <!-- Controllers -->
 		<script src="app/controllers/welcomeCtrl.js"></script>
+    <script src="app/controllers/allQuestionsCtrl.js"></script>
+    
+    
+    <!--Services-->
+    <script src="common/services/common.services.js"></script>
+    <script src="common/services/questionsResource.js"></script>
+		
+		
 		
 		<!--custom scripts-->
 		<script src="js/offcanvas_lr.js"></script>

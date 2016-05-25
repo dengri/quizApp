@@ -1,9 +1,6 @@
-/**
- * Created by Deb on 8/20/2014.
- */
 (function () {
     "use strict";
-    var app = angular.module("quizzApp", ['ui.router']);
+    var app = angular.module("quizzApp", ['ui.router', 'common.services']);
     
     app.config([
         "$stateProvider",
