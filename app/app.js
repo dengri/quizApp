@@ -19,7 +19,14 @@
                         templateUrl: "app/templates/welcome.html",
                         controller: "welcomeCtrl as vm"
                     }
-                );/*state*/
+                )
+                
+                .state(
+                    "home", {
+                        url: "/",
+                        templateUrl: "app/templates/welcome.html",
+                     }
+                );
         }/*function*/
     ]);/*app.config*/
     
